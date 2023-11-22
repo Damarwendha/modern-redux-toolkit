@@ -23,7 +23,7 @@ const updateUsiaAsync = createAsyncThunk(
   async (usia: Number) => {
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
-    // return akan menjadi action.payload
+    // return akan menjadi action.payload di extra reducers
     return { usia, createdAt: new Date().toISOString() };
   }
 );
