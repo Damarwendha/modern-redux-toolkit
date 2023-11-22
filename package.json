@@ -1,0 +1,26 @@
+{
+  "name": "stackblitz-starters-sttonq",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": ">=0.59",
+    "react-redux": "^7.2.1 || ^8.0.2",
+    "react-router-dom": "6.18.0",
+    "redux": "^4 || ^5.0.0-beta.0",
+    "redux-thunk": "^2.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
